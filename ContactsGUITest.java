@@ -4,8 +4,8 @@ import java.awt.event.*;
 import java.util.*;
 
 public class ContactsGUITest extends JFrame implements ActionListener {
-    Array<Person> list:
-    ContatcsDAO dao;
+    ArrayList<Person> list;
+    ContactsDAO dao;
 
     JFrame appFrame;
 

@@ -70,7 +70,8 @@ public class ContactsDAO {
         }
     }
 
-    public void delete(String n) {
+    public int delete(String n) {
+        int num = 0;
         try {
             String sql = "DELETE FROM person WHERE name = ?";
             PreparedStatement ps = con.prepareStatement(sql);
